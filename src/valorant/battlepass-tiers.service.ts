@@ -31,9 +31,7 @@ export class BattlepassTiersService {
       ) || null;
 
     const isPlaceholderId =
-      !CURRENT_BP_CONTRACT_ID ||
-      CURRENT_BP_CONTRACT_ID.startsWith('sample-') ||
-      CURRENT_BP_CONTRACT_ID === 'sample-contract-id-thay-bang-that';
+      !CURRENT_BP_CONTRACT_ID || CURRENT_BP_CONTRACT_ID.startsWith('sample-');
 
     if (!contract || isPlaceholderId) {
       contract = contracts.reduce((best: any, c: any) => {
