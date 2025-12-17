@@ -3,6 +3,7 @@ import { ConfigService } from '@nestjs/config';
 import { HttpException } from '@nestjs/common';
 import axios from 'axios';
 import { ValorantAssetsService } from './valorant-assets.service';
+import { BattlepassTiersService } from './battlepass-tiers.service';
 
 const VCurrencies = {
   VP: '85ad13f7-3d1b-5128-9eb2-7cd8ee0b5741',
@@ -27,6 +28,7 @@ export class ValorantService {
   constructor(
     private configService: ConfigService,
     private valorantAssetsService: ValorantAssetsService,
+    private battlepassTiersService: BattlepassTiersService,
   ) {}
 
   private getExtraHeaders() {
@@ -421,4 +423,112 @@ export class ValorantService {
     }
   }
 
+  async getBattlepassProgress(
+    accessToken: string,
+    entitlementsToken: string,
+    region: string,
+    userId: string,
+  ) {
+    const validRegion = this.validateRegion(region);
+    try {
+      const headers = {
+        ...this.getExtraHeaders(),
+        Authorization: `Bearer ${accessToken}`,
+        'X-Riot-Entitlements-JWT': entitlementsToken,
+      };
+      // ngay đầu getBattlepassProgress
+      await this.valorantAssetsService.loadAssets();
+
+      // Lấy contracts chính (nếu endpoint này lỗi thì coi như không có dữ liệu để xử lý tiếp)
+      const contractsRes = await axios.get(
+        `https://pd.${validRegion}.a.pvp.net/contracts/v1/contracts/${userId}`,
+        { headers },
+      );
+
+      const contractsData = contractsRes.data;
+
+      // Xây dữ liệu battlepass từ config tĩnh + contracts
+      const battlepass =
+        this.battlepassTiersService.buildProgressFromContracts(contractsData);
+
+      //log battlepass
+      console.dir(contractsData.Contracts, { depth: null });
+
+      return {
+        subject: contractsData.Subject,
+        activeSpecialContract: contractsData.ActiveSpecialContract,
+        missions: contractsData.Missions,
+        missionMetadata: contractsData.MissionMetadata,
+        processedMatches: contractsData.ProcessedMatches,
+        battlepass,
+      };
+    } catch (error) {
+      if (axios.isAxiosError(error)) {
+        console.error('Riot API Error in getBattlepassProgress:', {
+          status: error.response?.status,
+          statusText: error.response?.statusText,
+          data: error.response?.data,
+          region: validRegion,
+          userId: userId.substring(0, 8) + '...',
+        });
+        throw new HttpException(
+          {
+            message:
+              error.response?.data?.message ||
+              error.response?.data?.error ||
+              error.response?.data ||
+              error.message ||
+              'Failed to get battlepass progress',
+          },
+          error.response?.status || 502,
+        );
+      }
+      throw error;
+    }
+  }
+
+  /**
+   * Proxy simple để load ảnh bên thứ ba (như Fandom) tránh vấn đề hotlink/referrer.
+   * CHỈ cho phép host trong allowlist để tránh SSRF.
+   */
+  async proxyExternalImage(imageUrl: string) {
+    try {
+      if (!imageUrl) {
+        throw new HttpException({ message: 'Missing url' }, 400);
+      }
+
+      const url = new URL(imageUrl);
+      const allowedHosts = [
+        'static.wikia.nocookie.net',
+        'vignette.wikia.nocookie.net',
+      ];
+
+      if (!allowedHosts.includes(url.hostname)) {
+        throw new HttpException({ message: 'Host not allowed' }, 400);
+      }
+
+      const res = await axios.get<ArrayBuffer>(imageUrl, {
+        responseType: 'arraybuffer',
+      });
+
+      const contentType =
+        (res.headers['content-type'] as string | undefined) || 'image/png';
+
+      return {
+        data: Buffer.from(res.data),
+        contentType,
+      };
+    } catch (error) {
+      if (axios.isAxiosError(error)) {
+        throw new HttpException(
+          { message: 'Failed to fetch image' },
+          error.response?.status || 502,
+        );
+      }
+      if (error instanceof HttpException) {
+        throw error;
+      }
+      throw new HttpException({ message: 'Failed to fetch image' }, 502);
+    }
+  }
 }

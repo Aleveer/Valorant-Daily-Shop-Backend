@@ -72,6 +72,24 @@ export class GetProgressDto {
   userId: string;
 }
 
+export class GetBattlepassDto {
+  @IsString()
+  @IsNotEmpty()
+  accessToken: string;
+
+  @IsString()
+  @IsNotEmpty()
+  entitlementsToken: string;
+
+  @IsString()
+  @IsNotEmpty()
+  region: string;
+
+  @IsString()
+  @IsNotEmpty()
+  userId: string;
+}
+
 export class GetOwnedItemsDto {
   @IsString()
   @IsNotEmpty()
