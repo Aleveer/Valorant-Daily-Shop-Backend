@@ -51,7 +51,53 @@ function computeXpRequiredPerTier(maxTier) {
     return result;
 }
 
-function main() {
+// Chuyển JS object/array sang literal TS với nháy đơn, không nháy quanh key
+function toTsLiteral(value, indent = 0) {
+    const pad = '  '.repeat(indent);
+    const padNext = '  '.repeat(indent + 1);
+
+    if (value === null) return 'null';
+    if (typeof value === 'number' || typeof value === 'boolean') {
+        return String(value);
+    }
+    if (typeof value === 'string') {
+        return `'${value.replace(/\\/g, '\\\\').replace(/'/g, "\\'")}'`;
+    }
+    if (Array.isArray(value)) {
+        if (value.length === 0) return '[]';
+        const items = value.map((v) => `${padNext}${toTsLiteral(v, indent + 1)}`);
+        return `[\n${items.join(',\n')}\n${pad}]`;
+    }
+    // object
+    const entries = Object.entries(value || {});
+    if (entries.length === 0) return '{}';
+    const lines = entries.map(
+        ([k, v]) => `${padNext}${k}: ${toTsLiteral(v, indent + 1)}`,
+    );
+    return `{\n${lines.join(',\n')}\n${pad}}`;
+}
+
+async function formatTs(ts) {
+    try {
+        // eslint-disable-next-line @typescript-eslint/no-var-requires
+        const prettier = require('prettier');
+        const maybePromise = prettier.format(ts, {
+            parser: 'typescript',
+            singleQuote: true,
+            trailingComma: 'all',
+        });
+        if (maybePromise && typeof maybePromise.then === 'function') {
+            // Prettier v3+ trả Promise
+            return await maybePromise;
+        }
+        return maybePromise;
+    } catch (err) {
+        console.warn('Prettier không khả dụng, bỏ qua bước format TS.');
+        return ts;
+    }
+}
+
+async function main() {
     if (!fs.existsSync(INPUT_JSON)) {
         console.error('Không tìm thấy file', INPUT_JSON);
         process.exit(1);
@@ -126,7 +172,10 @@ function main() {
         t.xpRequired = xpRequiredByTier[t.level] ?? 0;
     }
 
-    const ts = `// AUTO-GENERATED từ tools/generate-battlepass-tiers.js
+    // Xuất TS với key không nháy, value nháy đơn, format chuẩn TS
+    const tiersString = toTsLiteral(tiersArray, 1);
+
+    let ts = `// AUTO-GENERATED từ tools/generate-battlepass-tiers.js
 // Season: ${SEASON_KEY}
 // ContractDefinitionID: ${CONTRACT_ID}
 
@@ -149,17 +198,18 @@ export const CURRENT_BP_SEASON = '${SEASON_KEY}';
 
 export const CURRENT_BP_CONTRACT_ID = '${CONTRACT_ID}';
 
-export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = ${JSON.stringify(
-        tiersArray,
-        null,
-        2,
-    )};
+export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = ${tiersString};
 `;
 
+    // Format lại theo chuẩn TS (singleQuote + trailingComma) nếu có prettier
+    ts = await formatTs(ts);
     fs.writeFileSync(OUTPUT_TS, ts, 'utf8');
     console.log('Đã sinh file TS:', OUTPUT_TS);
 }
 
-main();
+main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+});
 
 

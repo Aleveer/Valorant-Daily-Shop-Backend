@@ -19,7 +19,7 @@ export interface BattlepassTier {
 
 export const CURRENT_BP_SEASON = 'season_2025_act_6';
 
-export const CURRENT_BP_CONTRACT_ID = 'sample-contract-id';
+export const CURRENT_BP_CONTRACT_ID = 'sample-contract-id-thay-bang-that';
 
 export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
   {
@@ -366,7 +366,7 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
       {
         name: 'PB&J',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/e/ec/PB%26J_Flex.png/revision/latest?cb=20251014172613',
+          'https://static.wikia.nocookie.net/valorant/images/e/ec/PB%26J_Flex.png/revision/latest?cb=20251218224326',
         itemTypeID: '',
         itemID: '',
         category: 'Flex',
