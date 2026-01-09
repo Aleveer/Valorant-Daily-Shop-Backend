@@ -69,7 +69,13 @@ function toTsLiteral(value, indent = 0) {
         return String(value);
     }
     if (typeof value === 'string') {
-        return `'${value.replace(/\\/g, '\\\\').replace(/'/g, "\\'")}'`;
+        // Escape các ký tự đặc biệt: backslash, single quote, newline, tab, etc.
+        return `'${value
+            .replace(/\\/g, '\\\\')  // Escape backslash trước
+            .replace(/'/g, "\\'")    // Escape single quote
+            .replace(/\n/g, '\\n')   // Escape newline
+            .replace(/\r/g, '\\r')   // Escape carriage return
+            .replace(/\t/g, '\\t')}'`; // Escape tab
     }
     if (Array.isArray(value)) {
         if (value.length === 0) return '[]';
