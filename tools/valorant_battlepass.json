@@ -1,17 +1,17 @@
 {
-  "season_2025_act_6": [
+  "season_2026_act_1": [
     {
       "tier": "1",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/e/e0/Heartseeker_Shorty.png/revision/latest?cb=20251014172334",
-      "item": "Heartseeker Shorty",
+      "image": "https://static.wikia.nocookie.net/valorant/images/3/33/Stormborne_Sheriff.png/revision/latest?cb=20260106171503",
+      "item": "Stormborne Sheriff",
       "category": "Weapon Skins"
     },
     {
       "tier": "2",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/6/6d/Heartseeker_Buddy.png/revision/latest?cb=20251014172636",
-      "item": "Heartseeker Buddy",
+      "image": "https://static.wikia.nocookie.net/valorant/images/1/13/Stormborne_Buddy.png/revision/latest?cb=20260106175530",
+      "item": "Stormborne Buddy",
       "category": "Buddies"
     },
     {
@@ -24,43 +24,43 @@
     {
       "tier": "4",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/5/59/5_Years_Saltswept_Card_Large.png/revision/latest?cb=20251014172457",
-      "item": "5 Years: Saltswept Card",
+      "image": "https://static.wikia.nocookie.net/valorant/images/a/a7/Superset_Card_Large.png/revision/latest?cb=20260106172214",
+      "item": "Superset Card",
       "category": "Player Cards"
     },
     {
       "tier": "5",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/9/99/Heartbreaker_Bulldog.png/revision/latest?cb=20251014172327",
-      "item": "Heartbreaker Bulldog",
+      "image": "https://static.wikia.nocookie.net/valorant/images/e/e1/Superset_Marshal.png/revision/latest?cb=20260106171506",
+      "item": "Superset Marshal",
       "category": "Weapon Skins"
     },
     {
       "tier": "5",
       "track": "Free",
-      "image": "https://static.wikia.nocookie.net/valorant/images/2/26/Veto_ID_Card_Large.png/revision/latest?cb=20251014172513",
-      "item": "Veto ID Card",
+      "image": "https://static.wikia.nocookie.net/valorant/images/7/77/Bandit_Schema_Card_Large.png/revision/latest?cb=20260106172116",
+      "item": "Bandit Schema Card",
       "category": "Player Cards"
     },
     {
       "tier": "5",
       "track": "Free",
       "image": "https://static.wikia.nocookie.net/valorant/images/5/5d/Player_Title_image.png/revision/latest?cb=20210104061536",
-      "item": "Harmony Title",
+      "item": "Sweaty Title",
       "category": "Player Titles"
     },
     {
       "tier": "6",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/e/e5/Polish_and_Punish_Spray.png/revision/latest?cb=20251015152146",
-      "item": "Polish and Punish Spray",
+      "image": "https://static.wikia.nocookie.net/valorant/images/b/b5/Peek_Performance_Spray.png/revision/latest?cb=20260108130238",
+      "item": "Peek Performance Spray",
       "category": "Sprays"
     },
     {
       "tier": "7",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/8/8f/Heartseeker_Spray.png/revision/latest?cb=20251015152142",
-      "item": "Heartseeker Spray",
+      "image": "https://static.wikia.nocookie.net/valorant/images/a/a3/Tactical_Expressionism_Spray.png/revision/latest?cb=20260108130246",
+      "item": "Tactical Expressionism Spray",
       "category": "Sprays"
     },
     {
@@ -73,36 +73,36 @@
     {
       "tier": "9",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/4/4d/Heartseeker_Card_Large.png/revision/latest?cb=20251014172508",
-      "item": "Heartseeker Card",
+      "image": "https://static.wikia.nocookie.net/valorant/images/1/11/Montage_Card_Large.png/revision/latest?cb=20260106172205",
+      "item": "Montage Card",
       "category": "Player Cards"
     },
     {
       "tier": "10",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/8/89/Heartseeker_Stinger.png/revision/latest?cb=20251014172335",
-      "item": "Heartseeker Stinger",
+      "image": "https://static.wikia.nocookie.net/valorant/images/3/3a/Montage_Spectre.png/revision/latest?cb=20260106171455",
+      "item": "Montage Spectre",
       "category": "Weapon Skins"
     },
     {
       "tier": "10",
       "track": "Free",
-      "image": "https://static.wikia.nocookie.net/valorant/images/4/4f/V25_ACT_VI_Coin_Buddy.png/revision/latest?cb=20251014172644",
-      "item": "V25 ACT VI Coin Buddy",
+      "image": "https://static.wikia.nocookie.net/valorant/images/8/89/V26_ACT_I_Coin_Buddy.png/revision/latest?cb=20260106175542",
+      "item": "V26 ACT I Coin Buddy",
       "category": "Buddies"
     },
     {
       "tier": "11",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/d/d0/5_Years_Ade_On_Keys_Card_Large.png/revision/latest?cb=20251014172455",
-      "item": "5 Years: Ade On Keys Card",
+      "image": "https://static.wikia.nocookie.net/valorant/images/6/65/Stormborne_Card_Large.png/revision/latest?cb=20260106172211",
+      "item": "Stormborne Card",
       "category": "Player Cards"
     },
     {
       "tier": "12",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/6/6c/Percussion_Protocol_Spray.png/revision/latest?cb=20251015152145",
-      "item": "Percussion Protocol Spray",
+      "image": "https://static.wikia.nocookie.net/valorant/images/1/17/Stormborne_Spray.png/revision/latest?cb=20260108130242",
+      "item": "Stormborne Spray",
       "category": "Sprays"
     },
     {
@@ -115,15 +115,15 @@
     {
       "tier": "14",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/b/b3/Heartbreaker_Buddy.png/revision/latest?cb=20251014172635",
-      "item": "Heartbreaker Buddy",
+      "image": "https://static.wikia.nocookie.net/valorant/images/8/85/Superset_Buddy.png/revision/latest?cb=20260106175531",
+      "item": "Superset Buddy",
       "category": "Buddies"
     },
     {
       "tier": "15",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/2/2b/Heartbreaker_Odin.png/revision/latest?cb=20251014172328",
-      "item": "Heartbreaker Odin",
+      "image": "https://static.wikia.nocookie.net/valorant/images/b/b1/Stormborne_Guardian.png/revision/latest?cb=20260106171501",
+      "item": "Stormborne Guardian",
       "category": "Weapon Skins"
     },
     {
@@ -137,28 +137,28 @@
       "tier": "15",
       "track": "Free",
       "image": "https://static.wikia.nocookie.net/valorant/images/5/5d/Player_Title_image.png/revision/latest?cb=20210104061536",
-      "item": "In Sync Title",
+      "item": "Six Seven Title",
       "category": "Player Titles"
     },
     {
       "tier": "16",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/a/ac/Heartseeker_Outlaw.png/revision/latest?cb=20251014172332",
-      "item": "Heartseeker Outlaw",
-      "category": "Weapon Skins"
+      "image": "https://static.wikia.nocookie.net/valorant/images/9/94/Cardio_Claws_Card_Large.png/revision/latest?cb=20260106172119",
+      "item": "Cardio Claws Card",
+      "category": "Player Cards"
     },
     {
       "tier": "17",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/0/08/Pop_Pawstars_Card_Large.png/revision/latest?cb=20251014172510",
-      "item": "Pop Pawstars Card",
+      "image": "https://static.wikia.nocookie.net/valorant/images/b/b8/Checkmate_Protocol_Card_Large.png/revision/latest?cb=20260106172123",
+      "item": "Checkmate Protocol Card",
       "category": "Player Cards"
     },
     {
       "tier": "18",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/5/54/Agent_On_Route_Spray.png/revision/latest?cb=20251015152134",
-      "item": "Agent On Route Spray",
+      "image": "https://static.wikia.nocookie.net/valorant/images/4/46/Superset_Spray.png/revision/latest?cb=20260108130244",
+      "item": "Superset Spray",
       "category": "Sprays"
     },
     {
@@ -171,22 +171,22 @@
     {
       "tier": "20",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/e/ec/PB%26J_Flex.png/revision/latest?cb=20251218224326",
-      "item": "PB&J",
-      "category": "Flex"
+      "image": "https://static.wikia.nocookie.net/valorant/images/8/88/Superset_Classic.png/revision/latest?cb=20260106171505",
+      "item": "Superset Classic",
+      "category": "Weapon Skins"
     },
     {
       "tier": "20",
       "track": "Free",
-      "image": "https://static.wikia.nocookie.net/valorant/images/6/61/Storm_Surge_Spray.png/revision/latest?cb=20251015152148",
-      "item": "Storm Surge Spray",
+      "image": "https://static.wikia.nocookie.net/valorant/images/6/6b/Riptide_Ripped_Spray.png/revision/latest?cb=20260108130241",
+      "item": "Riptide Ripped Spray",
       "category": "Sprays"
     },
     {
       "tier": "21",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/a/ab/Angry_Ade_Spray.png/revision/latest?cb=20251015152135",
-      "item": "Angry Ade Spray",
+      "image": "https://static.wikia.nocookie.net/valorant/images/7/70/Iso-lated_Aim_Spray.png/revision/latest?cb=20260108130236",
+      "item": "Iso-lated Aim Spray",
       "category": "Sprays"
     },
     {
@@ -199,29 +199,29 @@
     {
       "tier": "23",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/4/4b/Ult_Bias_Iso_Buddy.png/revision/latest?cb=20251014172641",
-      "item": "Ult Bias: Iso Buddy",
+      "image": "https://static.wikia.nocookie.net/valorant/images/d/df/Protocol_Dummy_Buddy.png/revision/latest?cb=20260106175528",
+      "item": "Protocol Dummy Buddy",
       "category": "Buddies"
     },
     {
       "tier": "24",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/e/eb/Heartstopper_Spray.png/revision/latest?cb=20251015152143",
-      "item": "Heartstopper Spray",
+      "image": "https://static.wikia.nocookie.net/valorant/images/6/6d/Montage_Spray.png/revision/latest?cb=20260108130237",
+      "item": "Montage Spray",
       "category": "Sprays"
     },
     {
       "tier": "25",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/6/68/Heartstopper_Vandal.png/revision/latest?cb=20251014172343",
-      "item": "Heartstopper Vandal",
+      "image": "https://static.wikia.nocookie.net/valorant/images/b/b3/Montage_Phantom.png/revision/latest?cb=20260106171452",
+      "item": "Montage Phantom",
       "category": "Weapon Skins"
     },
     {
       "tier": "25",
       "track": "Free",
-      "image": "https://static.wikia.nocookie.net/valorant/images/7/73/5_Years_Why_We_Fight_Card_Large.png/revision/latest?cb=20251014172459",
-      "item": "5 Years: Why We Fight Card",
+      "image": "https://static.wikia.nocookie.net/valorant/images/3/34/Venomous_Succession_Card_Large.png/revision/latest?cb=20260106175343",
+      "item": "Venomous Succession Card",
       "category": "Player Cards"
     },
     {
@@ -234,8 +234,8 @@
     {
       "tier": "26",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/c/ca/Headbang_Havoc_Spray.png/revision/latest?cb=20251015152139",
-      "item": "Headbang Havoc Spray",
+      "image": "https://static.wikia.nocookie.net/valorant/images/8/81/Arrow_On_Cooldown_Spray.png/revision/latest?cb=20260108130232",
+      "item": "Arrow On Cooldown Spray",
       "category": "Sprays"
     },
     {
@@ -248,36 +248,36 @@
     {
       "tier": "28",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/6/65/Heartbreaker_Spray.png/revision/latest?cb=20251015152141",
-      "item": "Heartbreaker Spray",
+      "image": "https://static.wikia.nocookie.net/valorant/images/d/da/Predator%27s_Eye_Spray.png/revision/latest?cb=20260108130240",
+      "item": "Predator's Eye Spray",
       "category": "Sprays"
     },
     {
       "tier": "29",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/6/6b/Heartbreaker_Card_Large.png/revision/latest?cb=20251014172507",
-      "item": "Heartbreaker Card",
+      "image": "https://static.wikia.nocookie.net/valorant/images/7/74/DUO_Boom_on_Lock_Card_Large.png/revision/latest?cb=20260106172129",
+      "item": "DUO //\n            Boom on Lock Card",
       "category": "Player Cards"
     },
     {
       "tier": "30",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/d/d7/Heartbreaker_Sheriff.png/revision/latest?cb=20251014172330",
-      "item": "Heartbreaker Sheriff",
+      "image": "https://static.wikia.nocookie.net/valorant/images/5/56/Stormborne_Bucky.png/revision/latest?cb=20260106171501",
+      "item": "Stormborne Bucky",
       "category": "Weapon Skins"
     },
     {
       "tier": "30",
       "track": "Free",
-      "image": "https://static.wikia.nocookie.net/valorant/images/e/e6/5_Years_Beads_Buddy.png/revision/latest?cb=20251014172632",
-      "item": "5 Years: Beads Buddy",
+      "image": "https://static.wikia.nocookie.net/valorant/images/5/5a/Fresh_Frags_Buddy.png/revision/latest?cb=20260106175524",
+      "item": "Fresh Frags Buddy",
       "category": "Buddies"
     },
     {
       "tier": "31",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/5/5b/5_Years_Redemption_Card_Large.png/revision/latest?cb=20251014172456",
-      "item": "5 Years: Redemption Card",
+      "image": "https://static.wikia.nocookie.net/valorant/images/b/bd/Unstoppable_Chamber_Card_Large.png/revision/latest?cb=20260106172216",
+      "item": "Unstoppable // Chamber Card",
       "category": "Player Cards"
     },
     {
@@ -290,22 +290,22 @@
     {
       "tier": "33",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/a/ab/Heartstopper_Buddy.png/revision/latest?cb=20251014172637",
-      "item": "Heartstopper Buddy",
+      "image": "https://static.wikia.nocookie.net/valorant/images/e/ed/Montage_Buddy.png/revision/latest?cb=20260106175527",
+      "item": "Montage Buddy",
       "category": "Buddies"
     },
     {
       "tier": "34",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/7/78/Tech-nically_Speaking_Spray.png/revision/latest?cb=20251015152149",
-      "item": "Tech-nically Speaking Spray",
+      "image": "https://static.wikia.nocookie.net/valorant/images/2/27/Surveillance_Served_Spray.png/revision/latest?cb=20260108130245",
+      "item": "Surveillance Served Spray",
       "category": "Sprays"
     },
     {
       "tier": "35",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/7/7b/Heartseeker_Guardian.png/revision/latest?cb=20251014172331",
-      "item": "Heartseeker Guardian",
+      "image": "https://static.wikia.nocookie.net/valorant/images/c/c5/Montage_Ares.png/revision/latest?cb=20260106171443",
+      "item": "Montage Ares",
       "category": "Weapon Skins"
     },
     {
@@ -319,28 +319,28 @@
       "tier": "35",
       "track": "Free",
       "image": "https://static.wikia.nocookie.net/valorant/images/5/5d/Player_Title_image.png/revision/latest?cb=20210104061536",
-      "item": "Superstar Title",
+      "item": "Performative Title",
       "category": "Player Titles"
     },
     {
       "tier": "36",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/4/4e/Radiant_Riffs_Spray.png/revision/latest?cb=20251015152147",
-      "item": "Radiant Riffs Spray",
+      "image": "https://static.wikia.nocookie.net/valorant/images/f/f8/Site_Control_Society_Spray.png/revision/latest?cb=20260108130241",
+      "item": "Site Control Society Spray",
       "category": "Sprays"
     },
     {
       "tier": "37",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/2/24/Ult_Bias_Yoru_Buddy.png/revision/latest?cb=20251014172643",
-      "item": "Ult Bias: Yoru Buddy",
+      "image": "https://static.wikia.nocookie.net/valorant/images/3/30/Grizzly_Drip_Buddy.png/revision/latest?cb=20260106175525",
+      "item": "Grizzly Drip Buddy",
       "category": "Buddies"
     },
     {
       "tier": "38",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/d/d0/Fur_of_the_Fallen_Card_Large.png/revision/latest?cb=20251014172506",
-      "item": "Fur of the Fallen Card",
+      "image": "https://static.wikia.nocookie.net/valorant/images/7/71/Operation_Oversteer_Card_Large.png/revision/latest?cb=20260106172208",
+      "item": "Operation: Oversteer Card",
       "category": "Player Cards"
     },
     {
@@ -353,15 +353,15 @@
     {
       "tier": "40",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/c/c7/Heartbreaker_Operator.png/revision/latest?cb=20251014172329",
-      "item": "Heartbreaker Operator",
+      "image": "https://static.wikia.nocookie.net/valorant/images/9/9c/Stormborne_Operator.png/revision/latest?cb=20260106171502",
+      "item": "Stormborne Operator",
       "category": "Weapon Skins"
     },
     {
       "tier": "40",
       "track": "Free",
-      "image": "https://static.wikia.nocookie.net/valorant/images/0/0d/Five_and_Flawless_Spray.png/revision/latest?cb=20251015152138",
-      "item": "Five and Flawless Spray",
+      "image": "https://static.wikia.nocookie.net/valorant/images/f/fc/TactiForce_Go%21_Spray.png/revision/latest?cb=20260108130247",
+      "item": "TactiForce: Go! Spray",
       "category": "Sprays"
     },
     {
@@ -374,57 +374,57 @@
     {
       "tier": "42",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/2/2e/Boomerproof_Card_Large.png/revision/latest?cb=20251014172500",
-      "item": "Boomerproof Card",
+      "image": "https://static.wikia.nocookie.net/valorant/images/4/42/Meditation_is_for_Mortals_Card_Large.png/revision/latest?cb=20260106172202",
+      "item": "Meditation is for Mortals Card",
       "category": "Player Cards"
     },
     {
       "tier": "43",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/6/6f/Wingman_Solo_Spray.gif/revision/latest?cb=20251015152150",
-      "item": "Wingman Solo Spray",
+      "image": "https://static.wikia.nocookie.net/valorant/images/8/8d/Gun_Juggling_Spray.png/revision/latest?cb=20260108130235",
+      "item": "Gun Juggling Spray",
       "category": "Sprays"
     },
     {
       "tier": "44",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/2/27/Detonation_Dab_Spray.png/revision/latest?cb=20251015152137",
-      "item": "Detonation Dab Spray",
+      "image": "https://static.wikia.nocookie.net/valorant/images/d/d6/Fast_Break_Spray.png/revision/latest?cb=20260108130234",
+      "item": "Fast Break Spray",
       "category": "Sprays"
     },
     {
       "tier": "45",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/0/04/Heartseeker_Phantom.png/revision/latest?cb=20251014172333",
-      "item": "Heartseeker Phantom",
+      "image": "https://static.wikia.nocookie.net/valorant/images/2/2b/Superset_Vandal.png/revision/latest?cb=20260106171507",
+      "item": "Superset Vandal",
       "category": "Weapon Skins"
     },
     {
       "tier": "45",
       "track": "Free",
-      "image": "https://static.wikia.nocookie.net/valorant/images/3/35/Shock_%26_Roll_Buddy.png/revision/latest?cb=20251014172640",
-      "item": "Shock & Roll Buddy",
+      "image": "https://static.wikia.nocookie.net/valorant/images/c/c2/H2-Oh%21_Buddy.png/revision/latest?cb=20260106175526",
+      "item": "H2-Oh! Buddy",
       "category": "Buddies"
     },
     {
       "tier": "46",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/c/c8/Agent_of_Chaos_Spray.gif/revision/latest?cb=20251015152133",
-      "item": "Agent of Chaos Spray",
+      "image": "https://static.wikia.nocookie.net/valorant/images/c/c0/Ballistic_Smolder_Spray.png/revision/latest?cb=20260108130233",
+      "item": "Ballistic Smolder Spray",
       "category": "Sprays"
     },
     {
       "tier": "47",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/9/9c/Ult_Bias_Jett_Buddy.png/revision/latest?cb=20251014172642",
-      "item": "Ult Bias: Jett Buddy",
+      "image": "https://static.wikia.nocookie.net/valorant/images/f/f8/Referee_TactiDuck_Buddy.png/revision/latest?cb=20260106175529",
+      "item": "Referee TactiDuck Buddy",
       "category": "Buddies"
     },
     {
       "tier": "48",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/0/0d/Heartstopper_Card_Large.png/revision/latest?cb=20251014172509",
-      "item": "Heartstopper Card",
+      "image": "https://static.wikia.nocookie.net/valorant/images/c/c0/Dive_In_Card_Large.png/revision/latest?cb=20260106172126",
+      "item": "Dive In Card",
       "category": "Player Cards"
     },
     {
@@ -437,29 +437,29 @@
     {
       "tier": "50",
       "track": "Premium",
-      "image": "https://static.wikia.nocookie.net/valorant/images/0/08/Heart_Splitter.png/revision/latest?cb=20251014172326",
-      "item": "Heart Splitter",
+      "image": "https://static.wikia.nocookie.net/valorant/images/d/d6/Montage_Axe.png/revision/latest?cb=20260106171446",
+      "item": "Montage Axe",
       "category": "Weapon Skins"
     },
     {
       "tier": "50",
       "track": "Free",
-      "image": "https://static.wikia.nocookie.net/valorant/images/d/dc/Triple_Threat_Card_Large.png/revision/latest?cb=20251014172512",
-      "item": "Triple Threat Card",
+      "image": "https://static.wikia.nocookie.net/valorant/images/b/ba/Amplify_Card_Large.png/revision/latest?cb=20260106172110",
+      "item": "Amplify Card",
       "category": "Player Cards"
     },
     {
       "tier": "50",
       "track": "Free",
-      "image": "https://static.wikia.nocookie.net/valorant/images/f/fd/Heartstopper_Ghost.png/revision/latest?cb=20251014172340",
-      "item": "Heartstopper Ghost",
+      "image": "https://static.wikia.nocookie.net/valorant/images/3/3a/Montage_Frenzy.png/revision/latest?cb=20260106171449",
+      "item": "Montage Frenzy",
       "category": "Weapon Skins"
     },
     {
       "tier": "51",
       "track": "Free",
-      "image": "https://static.wikia.nocookie.net/valorant/images/c/cb/Epilogue_5_Years_Beads_Buddy.png/revision/latest?cb=20251014172635",
-      "item": "Epilogue: 5 Years: Beads Buddy",
+      "image": "https://static.wikia.nocookie.net/valorant/images/c/cc/Epilogue_Protocol_Dummy_Buddy.png/revision/latest?cb=20260106175523",
+      "item": "Epilogue : Protocol Dummy Buddy",
       "category": "Buddies"
     },
     {
@@ -486,8 +486,8 @@
     {
       "tier": "55",
       "track": "Free",
-      "image": "https://static.wikia.nocookie.net/valorant/images/0/02/Epilogue_Pop_Pawstars_Card_Large.png/revision/latest?cb=20251014172505",
-      "item": "Epilogue: Pop Pawstars Card",
+      "image": "https://static.wikia.nocookie.net/valorant/images/5/56/Epilogue_Checkmate_Protocol_Card_Large.png/revision/latest?cb=20260106172132",
+      "item": "Epilogue : Checkmate Protocol Card",
       "category": "Player Cards"
     }
   ]

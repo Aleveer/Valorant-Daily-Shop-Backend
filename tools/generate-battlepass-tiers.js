@@ -27,25 +27,33 @@ const OUTPUT_TS = path.join(
 // ==== HÀM HỖ TRỢ ====
 
 // Tính cumulative XP để đạt tới mỗi tier theo wiki:
-// Tier 1: 0 (đã hoàn thành)
-// Tier 2: +2000
-// Từ Tier 3 trở đi: mỗi tier +750 XP so với tier trước
+// Tier 1: 0 (cumulative)
+// Tier 2: 2,000 (cumulative) - XP required: 2,000
+// Tier 3-50: XP required = 2,000 + (tier - 2) * 750
+// Epilogue 1-5 (tier 51-55): XP required = 36,500 mỗi tier
 function computeXpRequiredPerTier(maxTier) {
     const result = {};
     let cumulative = 0;
-    let delta = 0;
 
     for (let level = 1; level <= maxTier; level++) {
+        let xpRequired = 0;
+
         if (level === 1) {
-            result[level] = 0;
-            continue;
-        }
-        if (level === 2) {
-            delta = 2000;
+            xpRequired = 0;
+        } else if (level === 2) {
+            xpRequired = 2000;
+        } else if (level >= 3 && level <= 50) {
+            // Tier 3-50: XP required = 2,000 + (tier - 2) * 750
+            xpRequired = 2000 + (level - 2) * 750;
+        } else if (level >= 51 && level <= 55) {
+            // Epilogue tiers: 36,500 XP mỗi tier
+            xpRequired = 36500;
         } else {
-            delta += 750;
+            // Fallback cho các tier ngoài phạm vi
+            xpRequired = 2000 + (level - 2) * 750;
         }
-        cumulative += delta;
+
+        cumulative += xpRequired;
         result[level] = cumulative;
     }
     return result;
