@@ -1,5 +1,5 @@
 // AUTO-GENERATED từ tools/generate-battlepass-tiers.js
-// Season: season_2026_act_1
+// Season: season_2026_act_2
 // ContractDefinitionID: sample-contract-id-thay-bang-that
 
 export interface BattlepassTierReward {
@@ -17,7 +17,7 @@ export interface BattlepassTier {
   xpRequired?: number;
 }
 
-export const CURRENT_BP_SEASON = 'season_2026_act_1';
+export const CURRENT_BP_SEASON = 'season_2026_act_2';
 
 export const CURRENT_BP_CONTRACT_ID = 'sample-contract-id-thay-bang-that';
 
@@ -27,9 +27,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Stormborne Sheriff',
+        name: 'Dragon Gate Shorty',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/3/33/Stormborne_Sheriff.png/revision/latest?cb=20260106171503',
+          'https://static.wikia.nocookie.net/valorant/images/1/1b/Dragon_Gate_Shorty.png/revision/latest?cb=20260317170006',
         itemTypeID: '',
         itemID: '',
         category: 'Weapon Skins',
@@ -42,9 +42,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Stormborne Buddy',
+        name: 'Happy Petal Buddy',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/1/13/Stormborne_Buddy.png/revision/latest?cb=20260106175530',
+          'https://static.wikia.nocookie.net/valorant/images/a/a2/Happy_Petal_Buddy.png/revision/latest?cb=20260317165455',
         itemTypeID: '',
         itemID: '',
         category: 'Buddies',
@@ -72,9 +72,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Superset Card',
+        name: 'Miks ID Card',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/a/a7/Superset_Card_Large.png/revision/latest?cb=20260106172214',
+          'https://static.wikia.nocookie.net/valorant/images/2/2d/Miks_ID_Card_Large.png/revision/latest?cb=20260317165741',
         itemTypeID: '',
         itemID: '',
         category: 'Player Cards',
@@ -86,17 +86,16 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     level: 5,
     free: [
       {
-        name: 'Bandit Schema Card',
+        name: 'Paintbrush Tactics Card',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/7/77/Bandit_Schema_Card_Large.png/revision/latest?cb=20260106172116',
+          'https://static.wikia.nocookie.net/valorant/images/9/94/Paintbrush_Tactics_Card_Large.png/revision/latest?cb=20260317165807',
         itemTypeID: '',
         itemID: '',
         category: 'Player Cards',
       },
       {
-        name: 'Sweaty Title',
-        image:
-          'https://static.wikia.nocookie.net/valorant/images/5/5d/Player_Title_image.png/revision/latest?cb=20210104061536',
+        name: 'Tea Title',
+        image: '',
         itemTypeID: '',
         itemID: '',
         category: 'Player Titles',
@@ -104,9 +103,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     ],
     premium: [
       {
-        name: 'Superset Marshal',
+        name: 'Paceline Stinger',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/e/e1/Superset_Marshal.png/revision/latest?cb=20260106171506',
+          'https://static.wikia.nocookie.net/valorant/images/9/97/Paceline_Stinger.png/revision/latest?cb=20260317170029',
         itemTypeID: '',
         itemID: '',
         category: 'Weapon Skins',
@@ -119,9 +118,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Peek Performance Spray',
+        name: 'Beware of Dog Spray',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/b/b5/Peek_Performance_Spray.png/revision/latest?cb=20260108130238',
+          'https://static.wikia.nocookie.net/valorant/images/f/fe/Beware_of_Dog_Spray.png/revision/latest?cb=20260318144255',
         itemTypeID: '',
         itemID: '',
         category: 'Sprays',
@@ -134,9 +133,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Tactical Expressionism Spray',
+        name: 'No Zipline Spray',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/a/a3/Tactical_Expressionism_Spray.png/revision/latest?cb=20260108130246',
+          'https://static.wikia.nocookie.net/valorant/images/2/22/No_Zipline_Spray.png/revision/latest?cb=20260318144302',
         itemTypeID: '',
         itemID: '',
         category: 'Sprays',
@@ -164,9 +163,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Montage Card',
+        name: 'Soulburst Card',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/1/11/Montage_Card_Large.png/revision/latest?cb=20260106172205',
+          'https://static.wikia.nocookie.net/valorant/images/f/f3/Soulburst_Card_Large.png/revision/latest?cb=20260317165818',
         itemTypeID: '',
         itemID: '',
         category: 'Player Cards',
@@ -178,9 +177,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     level: 10,
     free: [
       {
-        name: 'V26 ACT I Coin Buddy',
+        name: 'V26 ACT II Coin Buddy',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/8/89/V26_ACT_I_Coin_Buddy.png/revision/latest?cb=20260106175542',
+          'https://static.wikia.nocookie.net/valorant/images/e/e4/V26_ACT_II_Coin_Buddy.png/revision/latest?cb=20260317165502',
         itemTypeID: '',
         itemID: '',
         category: 'Buddies',
@@ -188,9 +187,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     ],
     premium: [
       {
-        name: 'Montage Spectre',
+        name: 'Soulburst Outlaw',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/3/3a/Montage_Spectre.png/revision/latest?cb=20260106171455',
+          'https://static.wikia.nocookie.net/valorant/images/0/06/Soulburst_Outlaw.png/revision/latest?cb=20260317170043',
         itemTypeID: '',
         itemID: '',
         category: 'Weapon Skins',
@@ -203,9 +202,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Stormborne Card',
+        name: 'Dragon Gate Card',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/6/65/Stormborne_Card_Large.png/revision/latest?cb=20260106172211',
+          'https://static.wikia.nocookie.net/valorant/images/4/4a/Dragon_Gate_Card_Large.png/revision/latest?cb=20260317165732',
         itemTypeID: '',
         itemID: '',
         category: 'Player Cards',
@@ -218,9 +217,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Stormborne Spray',
+        name: 'Dragon Gate Spray',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/1/17/Stormborne_Spray.png/revision/latest?cb=20260108130242',
+          'https://static.wikia.nocookie.net/valorant/images/d/d2/Dragon_Gate_Spray.png/revision/latest?cb=20260318144259',
         itemTypeID: '',
         itemID: '',
         category: 'Sprays',
@@ -248,9 +247,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Superset Buddy',
+        name: 'Dragon Gate Buddy',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/8/85/Superset_Buddy.png/revision/latest?cb=20260106175531',
+          'https://static.wikia.nocookie.net/valorant/images/3/33/Dragon_Gate_Buddy.png/revision/latest?cb=20260317165453',
         itemTypeID: '',
         itemID: '',
         category: 'Buddies',
@@ -270,9 +269,8 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
         category: 'Radianite Points',
       },
       {
-        name: 'Six Seven Title',
-        image:
-          'https://static.wikia.nocookie.net/valorant/images/5/5d/Player_Title_image.png/revision/latest?cb=20210104061536',
+        name: 'Gnarly Title',
+        image: '',
         itemTypeID: '',
         itemID: '',
         category: 'Player Titles',
@@ -280,9 +278,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     ],
     premium: [
       {
-        name: 'Stormborne Guardian',
+        name: 'Dragon Gate Ares',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/b/b1/Stormborne_Guardian.png/revision/latest?cb=20260106171501',
+          'https://static.wikia.nocookie.net/valorant/images/2/27/Dragon_Gate_Ares.png/revision/latest?cb=20260317170003',
         itemTypeID: '',
         itemID: '',
         category: 'Weapon Skins',
@@ -295,12 +293,12 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Cardio Claws Card',
+        name: 'Paceline Frenzy',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/9/94/Cardio_Claws_Card_Large.png/revision/latest?cb=20260106172119',
+          'https://static.wikia.nocookie.net/valorant/images/a/ad/Paceline_Frenzy.png/revision/latest?cb=20260317170027',
         itemTypeID: '',
         itemID: '',
-        category: 'Player Cards',
+        category: 'Weapon Skins',
       },
     ],
     xpRequired: 108750,
@@ -310,9 +308,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Checkmate Protocol Card',
+        name: 'Bomb Buddy Card',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/b/b8/Checkmate_Protocol_Card_Large.png/revision/latest?cb=20260106172123',
+          'https://static.wikia.nocookie.net/valorant/images/6/66/Bomb_Buddy_Card_Large.png/revision/latest?cb=20260317165727',
         itemTypeID: '',
         itemID: '',
         category: 'Player Cards',
@@ -325,9 +323,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Superset Spray',
+        name: 'Soulburst Spray',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/4/46/Superset_Spray.png/revision/latest?cb=20260108130244',
+          'https://static.wikia.nocookie.net/valorant/images/b/b5/Soulburst_Spray.png/revision/latest?cb=20260318144308',
         itemTypeID: '',
         itemID: '',
         category: 'Sprays',
@@ -354,9 +352,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     level: 20,
     free: [
       {
-        name: 'Riptide Ripped Spray',
+        name: 'Acorn Ops Spray',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/6/6b/Riptide_Ripped_Spray.png/revision/latest?cb=20260108130241',
+          'https://static.wikia.nocookie.net/valorant/images/1/16/Acorn_Ops_Spray.png/revision/latest?cb=20260318144251',
         itemTypeID: '',
         itemID: '',
         category: 'Sprays',
@@ -364,9 +362,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     ],
     premium: [
       {
-        name: 'Superset Classic',
+        name: 'Soulburst Spectre',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/8/88/Superset_Classic.png/revision/latest?cb=20260106171505',
+          'https://static.wikia.nocookie.net/valorant/images/b/b4/Soulburst_Spectre.png/revision/latest?cb=20260317170046',
         itemTypeID: '',
         itemID: '',
         category: 'Weapon Skins',
@@ -379,9 +377,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Iso-lated Aim Spray',
+        name: 'Rush Zone Spray',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/7/70/Iso-lated_Aim_Spray.png/revision/latest?cb=20260108130236',
+          'https://static.wikia.nocookie.net/valorant/images/1/1b/Rush_Zone_Spray.png/revision/latest?cb=20260318144306',
         itemTypeID: '',
         itemID: '',
         category: 'Sprays',
@@ -409,9 +407,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Protocol Dummy Buddy',
+        name: 'Super Saver Buddy',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/d/df/Protocol_Dummy_Buddy.png/revision/latest?cb=20260106175528',
+          'https://static.wikia.nocookie.net/valorant/images/b/b2/Super_Saver_Buddy.png/revision/latest?cb=20260317165501',
         itemTypeID: '',
         itemID: '',
         category: 'Buddies',
@@ -424,9 +422,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Montage Spray',
+        name: 'Paceline Spray',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/6/6d/Montage_Spray.png/revision/latest?cb=20260108130237',
+          'https://static.wikia.nocookie.net/valorant/images/b/b7/Paceline_Spray.png/revision/latest?cb=20260318144304',
         itemTypeID: '',
         itemID: '',
         category: 'Sprays',
@@ -438,9 +436,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     level: 25,
     free: [
       {
-        name: 'Venomous Succession Card',
+        name: 'Tacti-Ops Card',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/3/34/Venomous_Succession_Card_Large.png/revision/latest?cb=20260106175343',
+          'https://static.wikia.nocookie.net/valorant/images/0/0b/Tacti-Ops_Card_Large.png/revision/latest?cb=20260317165823',
         itemTypeID: '',
         itemID: '',
         category: 'Player Cards',
@@ -456,9 +454,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     ],
     premium: [
       {
-        name: 'Montage Phantom',
+        name: 'Paceline Vandal',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/b/b3/Montage_Phantom.png/revision/latest?cb=20260106171452',
+          'https://static.wikia.nocookie.net/valorant/images/5/52/Paceline_Vandal.png/revision/latest?cb=20260317170030',
         itemTypeID: '',
         itemID: '',
         category: 'Weapon Skins',
@@ -471,9 +469,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Arrow On Cooldown Spray',
+        name: 'Arctic Snare Spray',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/8/81/Arrow_On_Cooldown_Spray.png/revision/latest?cb=20260108130232',
+          'https://static.wikia.nocookie.net/valorant/images/8/81/Arctic_Snare_Spray.png/revision/latest?cb=20260318144252',
         itemTypeID: '',
         itemID: '',
         category: 'Sprays',
@@ -501,9 +499,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: "Predator's Eye Spray",
+        name: 'Tacti Tears Spray',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/d/da/Predator%27s_Eye_Spray.png/revision/latest?cb=20260108130240',
+          'https://static.wikia.nocookie.net/valorant/images/8/85/Tacti_Tears_Spray.png/revision/latest?cb=20260318144310',
         itemTypeID: '',
         itemID: '',
         category: 'Sprays',
@@ -516,9 +514,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'DUO //\n            Boom on Lock Card',
+        name: 'Sidekicks Card',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/7/74/DUO_Boom_on_Lock_Card_Large.png/revision/latest?cb=20260106172129',
+          'https://static.wikia.nocookie.net/valorant/images/8/86/Sidekicks_Card_Large.png/revision/latest?cb=20260317165813',
         itemTypeID: '',
         itemID: '',
         category: 'Player Cards',
@@ -530,9 +528,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     level: 30,
     free: [
       {
-        name: 'Fresh Frags Buddy',
+        name: 'Nest Egg Buddy',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/5/5a/Fresh_Frags_Buddy.png/revision/latest?cb=20260106175524',
+          'https://static.wikia.nocookie.net/valorant/images/7/7c/Nest_Egg_Buddy.png/revision/latest?cb=20260317165457',
         itemTypeID: '',
         itemID: '',
         category: 'Buddies',
@@ -540,9 +538,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     ],
     premium: [
       {
-        name: 'Stormborne Bucky',
+        name: 'Dragon Gate Judge',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/5/56/Stormborne_Bucky.png/revision/latest?cb=20260106171501',
+          'https://static.wikia.nocookie.net/valorant/images/b/b2/Dragon_Gate_Judge.png/revision/latest?cb=20260317170004',
         itemTypeID: '',
         itemID: '',
         category: 'Weapon Skins',
@@ -555,9 +553,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Unstoppable // Chamber Card',
+        name: 'Paceline Card',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/b/bd/Unstoppable_Chamber_Card_Large.png/revision/latest?cb=20260106172216',
+          'https://static.wikia.nocookie.net/valorant/images/1/1a/Paceline_Card_Large.png/revision/latest?cb=20260317165744',
         itemTypeID: '',
         itemID: '',
         category: 'Player Cards',
@@ -585,9 +583,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Montage Buddy',
+        name: 'Paceline Buddy',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/e/ed/Montage_Buddy.png/revision/latest?cb=20260106175527',
+          'https://static.wikia.nocookie.net/valorant/images/9/92/Paceline_Buddy.png/revision/latest?cb=20260317165458',
         itemTypeID: '',
         itemID: '',
         category: 'Buddies',
@@ -600,9 +598,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Surveillance Served Spray',
+        name: 'Barrier Boost Spray',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/2/27/Surveillance_Served_Spray.png/revision/latest?cb=20260108130245',
+          'https://static.wikia.nocookie.net/valorant/images/f/f9/Barrier_Boost_Spray.png/revision/latest?cb=20260318144254',
         itemTypeID: '',
         itemID: '',
         category: 'Sprays',
@@ -622,9 +620,8 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
         category: 'Radianite Points',
       },
       {
-        name: 'Performative Title',
-        image:
-          'https://static.wikia.nocookie.net/valorant/images/5/5d/Player_Title_image.png/revision/latest?cb=20210104061536',
+        name: 'Unc Title',
+        image: '',
         itemTypeID: '',
         itemID: '',
         category: 'Player Titles',
@@ -632,9 +629,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     ],
     premium: [
       {
-        name: 'Montage Ares',
+        name: 'Paceline Guardian',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/c/c5/Montage_Ares.png/revision/latest?cb=20260106171443',
+          'https://static.wikia.nocookie.net/valorant/images/f/f6/Paceline_Guardian.png/revision/latest?cb=20260317170028',
         itemTypeID: '',
         itemID: '',
         category: 'Weapon Skins',
@@ -647,9 +644,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Site Control Society Spray',
+        name: 'Cosmic Eyes Spray',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/f/f8/Site_Control_Society_Spray.png/revision/latest?cb=20260108130241',
+          'https://static.wikia.nocookie.net/valorant/images/4/45/Cosmic_Eyes_Spray.png/revision/latest?cb=20260318144258',
         itemTypeID: '',
         itemID: '',
         category: 'Sprays',
@@ -662,9 +659,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Grizzly Drip Buddy',
+        name: 'Soulburst Buddy',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/3/30/Grizzly_Drip_Buddy.png/revision/latest?cb=20260106175525',
+          'https://static.wikia.nocookie.net/valorant/images/8/83/Soulburst_Buddy.png/revision/latest?cb=20260317165459',
         itemTypeID: '',
         itemID: '',
         category: 'Buddies',
@@ -677,9 +674,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Operation: Oversteer Card',
+        name: 'Flick of the Wrist Card',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/7/71/Operation_Oversteer_Card_Large.png/revision/latest?cb=20260106172208',
+          'https://static.wikia.nocookie.net/valorant/images/c/c0/Flick_of_the_Wrist_Card_Large.png/revision/latest?cb=20260317165738',
         itemTypeID: '',
         itemID: '',
         category: 'Player Cards',
@@ -706,9 +703,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     level: 40,
     free: [
       {
-        name: 'TactiForce: Go! Spray',
+        name: 'BooBat Spray',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/f/fc/TactiForce_Go%21_Spray.png/revision/latest?cb=20260108130247',
+          'https://static.wikia.nocookie.net/valorant/images/d/d3/BooBat_Spray.png/revision/latest?cb=20260318144256',
         itemTypeID: '',
         itemID: '',
         category: 'Sprays',
@@ -716,9 +713,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     ],
     premium: [
       {
-        name: 'Stormborne Operator',
+        name: 'Soulburst Bulldog',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/9/9c/Stormborne_Operator.png/revision/latest?cb=20260106171502',
+          'https://static.wikia.nocookie.net/valorant/images/b/b6/Soulburst_Bulldog.png/revision/latest?cb=20260317170039',
         itemTypeID: '',
         itemID: '',
         category: 'Weapon Skins',
@@ -746,9 +743,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Meditation is for Mortals Card',
+        name: 'Baited Card',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/4/42/Meditation_is_for_Mortals_Card_Large.png/revision/latest?cb=20260106172202',
+          'https://static.wikia.nocookie.net/valorant/images/d/d4/Baited_Card_Large.png/revision/latest?cb=20260317165716',
         itemTypeID: '',
         itemID: '',
         category: 'Player Cards',
@@ -761,9 +758,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Gun Juggling Spray',
+        name: 'Brimstone Geometry Spray',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/8/8d/Gun_Juggling_Spray.png/revision/latest?cb=20260108130235',
+          'https://static.wikia.nocookie.net/valorant/images/b/b6/Brimstone_Geometry_Spray.png/revision/latest?cb=20260318144257',
         itemTypeID: '',
         itemID: '',
         category: 'Sprays',
@@ -776,12 +773,12 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Fast Break Spray',
+        name: 'Dragon Gate Flex',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/d/d6/Fast_Break_Spray.png/revision/latest?cb=20260108130234',
+          'https://static.wikia.nocookie.net/valorant/images/4/45/Dragon_Gate_Flex.png/revision/latest?cb=20260317165532',
         itemTypeID: '',
         itemID: '',
-        category: 'Sprays',
+        category: 'Flex',
       },
     ],
     xpRequired: 763250,
@@ -790,9 +787,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     level: 45,
     free: [
       {
-        name: 'H2-Oh! Buddy',
+        name: 'Student TactiBear Buddy',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/c/c2/H2-Oh%21_Buddy.png/revision/latest?cb=20260106175526',
+          'https://static.wikia.nocookie.net/valorant/images/d/d5/Student_TactiBear_Buddy.png/revision/latest?cb=20260317165500',
         itemTypeID: '',
         itemID: '',
         category: 'Buddies',
@@ -800,9 +797,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     ],
     premium: [
       {
-        name: 'Superset Vandal',
+        name: 'Dragon Gate Phantom',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/2/2b/Superset_Vandal.png/revision/latest?cb=20260106171507',
+          'https://static.wikia.nocookie.net/valorant/images/b/b9/Dragon_Gate_Phantom.png/revision/latest?cb=20260317170005',
         itemTypeID: '',
         itemID: '',
         category: 'Weapon Skins',
@@ -815,9 +812,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Ballistic Smolder Spray',
+        name: 'Scribble Lightspeed Spray',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/c/c0/Ballistic_Smolder_Spray.png/revision/latest?cb=20260108130233',
+          'https://static.wikia.nocookie.net/valorant/images/0/04/Scribble_Lightspeed_Spray.png/revision/latest?cb=20260318144307',
         itemTypeID: '',
         itemID: '',
         category: 'Sprays',
@@ -830,9 +827,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Referee TactiDuck Buddy',
+        name: 'Orange Juice Dreams Buddy',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/f/f8/Referee_TactiDuck_Buddy.png/revision/latest?cb=20260106175529',
+          'https://static.wikia.nocookie.net/valorant/images/3/33/Orange_Juice_Dreams_Buddy.png/revision/latest?cb=20260317165458',
         itemTypeID: '',
         itemID: '',
         category: 'Buddies',
@@ -845,9 +842,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     free: [],
     premium: [
       {
-        name: 'Dive In Card',
+        name: 'Perfect View Card',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/c/c0/Dive_In_Card_Large.png/revision/latest?cb=20260106172126',
+          'https://static.wikia.nocookie.net/valorant/images/0/0b/Perfect_View_Card_Large.png/revision/latest?cb=20260317165809',
         itemTypeID: '',
         itemID: '',
         category: 'Player Cards',
@@ -874,17 +871,17 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     level: 50,
     free: [
       {
-        name: 'Amplify Card',
+        name: 'The Cost Card',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/b/ba/Amplify_Card_Large.png/revision/latest?cb=20260106172110',
+          'https://static.wikia.nocookie.net/valorant/images/5/5d/The_Cost_Card_Large.png/revision/latest?cb=20260317165826',
         itemTypeID: '',
         itemID: '',
         category: 'Player Cards',
       },
       {
-        name: 'Montage Frenzy',
+        name: 'Soulburst Bandit',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/3/3a/Montage_Frenzy.png/revision/latest?cb=20260106171449',
+          'https://static.wikia.nocookie.net/valorant/images/6/6a/Soulburst_Bandit.png/revision/latest?cb=20260317170035',
         itemTypeID: '',
         itemID: '',
         category: 'Weapon Skins',
@@ -892,9 +889,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     ],
     premium: [
       {
-        name: 'Montage Axe',
+        name: "Paceline 's Edge",
         image:
-          'https://static.wikia.nocookie.net/valorant/images/d/d6/Montage_Axe.png/revision/latest?cb=20260106171446',
+          'https://static.wikia.nocookie.net/valorant/images/8/86/Paceline%27s_Edge.png/revision/latest?cb=20260317170031',
         itemTypeID: '',
         itemID: '',
         category: 'Weapon Skins',
@@ -906,9 +903,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     level: 51,
     free: [
       {
-        name: 'Epilogue : Protocol Dummy Buddy',
+        name: 'Epilogue: Super Saver Buddy',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/c/cc/Epilogue_Protocol_Dummy_Buddy.png/revision/latest?cb=20260106175523',
+          'https://static.wikia.nocookie.net/valorant/images/c/cc/Epilogue_Super_Saver_Buddy.png/revision/latest?cb=20260317165454',
         itemTypeID: '',
         itemID: '',
         category: 'Buddies',
@@ -966,9 +963,9 @@ export const BATTLEPASS_SAMPLE_TIERS: BattlepassTier[] = [
     level: 55,
     free: [
       {
-        name: 'Epilogue : Checkmate Protocol Card',
+        name: 'Epilogue: Bomb Buddy Card',
         image:
-          'https://static.wikia.nocookie.net/valorant/images/5/56/Epilogue_Checkmate_Protocol_Card_Large.png/revision/latest?cb=20260106172132',
+          'https://static.wikia.nocookie.net/valorant/images/e/ea/Epilogue_Bomb_Buddy_Card_Large.png/revision/latest?cb=20260317165735',
         itemTypeID: '',
         itemID: '',
         category: 'Player Cards',
